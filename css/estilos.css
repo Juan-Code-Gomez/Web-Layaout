@@ -65,3 +65,35 @@ body{
     color: white;
     text-align: center;
 }
+
+@media (max-width: 992px) {
+    .content-one p, .sidebar{
+        font-size: 14px;
+    }
+    .content-one h2, .sidebar h2{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 760px) {
+    .content-one, .sidebar{
+        width: 100%;
+    }
+    .content-one p, .sidebar{
+        font-size: 12px;
+    }
+    .content-one h2, .sidebar h2{
+        font-size: 16px;
+    }
+    .footer{
+        margin-top: 290px;
+    }
+}
+@media (max-width: 600px) {
+    .main-content h1{
+        top: 135px;
+        left: 330px;
+        font-size: 19px;
+        text-align: right;
+    }
+}
