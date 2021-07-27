@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+.logo{
+    width: 100%;
+    background-color: coral;
+    overflow: hidden;
+    color: white;
+}
+
+.navbar-menu{
+    background-color: #0a0e30;
+    overflow: hidden;
+}
+.navbar-menu{
+    list-style: none;
+    padding: 0;
+}
+.navbar-menu li{
+    display: inline;
+}
+.navbar-menu a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+.main-content{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: 1950px 600px;
+    background-position: center;
+    position: relative;
+    margin-bottom: 7px;
+}
+
+.main-content h1{
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    top: 135px;
+    left: 190px;
+}
+
+.content-one{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px dashed #2D388B;
+}
+.sidebar{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px dashed #2D388B;
+}
+
+.footer{
+    margin-top: 175px;
+    background-color: #0a0e30;
+    color: white;
+    text-align: center;
+}
